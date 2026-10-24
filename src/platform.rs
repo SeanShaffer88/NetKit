@@ -151,7 +151,7 @@ mod win {
     /// 3xx responses, never follow them.
     const WINHTTP_OPTION_REDIRECT_POLICY_NEVER: u32 = 0;
     const WINHTTP_QUERY_STATUS_CODE: u32 = 19;
-    const WINHTTP_QUERY_RAW_HEADERS_CRLF: u32 = 83;
+    const WINHTTP_QUERY_RAW_HEADERS_CRLF: u32 = 22;
     const WINHTTP_QUERY_FLAG_NUMBER: u32 = 0x2000_0000;
     const ERROR_INSUFFICIENT_BUFFER: u32 = 122;
     const ERROR_WINHTTP_TIMEOUT: u32 = 12002;
